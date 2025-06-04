@@ -1,0 +1,77 @@
+# 忽略构建输出目录
+/target/
+/dist/
+/build/
+
+# 忽略 IDE 配置文件
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+
+# 忽略日志文件
+/logs/
+*.log
+
+# 忽略本地环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略临时文件
+*.swp
+*~
+*.bak
+
+# 忽略前端依赖和构建输出
+/music-client/node_modules/
+/music-manage/node_modules/
+/music-client/dist/
+/music-manage/dist/
+
+# 忽略前端配置文件
+/music-client/.env.*
+/music-manage/.env.*
+
+# 忽略前端测试相关文件
+/music-client/coverage/
+/music-manage/coverage/
+/music-client/jest.config.js
+/music-manage/jest.config.js
+
+# 忽略后端依赖和构建输出
+/music-server/target/
+/music-server/.classpath
+/music-server/.project
+/music-server/.settings/
+/music-server/.springBeans
+/music-server/build/
+/music-server/out/
+
+# 忽略后端日志
+/music-server/logs/
+/music-server/*.log
+
+# 忽略后端本地环境变量
+/music-server/.env
+/music-server/.env.local
+
+# 忽略 Node.js 依赖
+node_modules/
+package-lock.json
+
+# 忽略 IDE 特定文件
+*.iml
+
+# 忽略调试日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+
+
